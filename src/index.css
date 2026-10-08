@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --page-bg: #f4f1ee;
+  --navy-900: #071d32;
+  --navy-800: #0d2540;
+  --orange: #f26d3d;
+  --orange-strong: #ef5d2d;
+  --green: #1db863;
+  --green-strong: #18a555;
+  --text: #121821;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  background: var(--page-bg);
+  color: var(--text);
+}
+
+.display {
+  font-family: Fraunces, serif;
+}
+
