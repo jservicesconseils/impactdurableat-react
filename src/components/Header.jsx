@@ -1,6 +1,7 @@
 
 import { useState } from 'react'
 import BrandLogo from './BrandLogo'
+
 export default function Header(){
   const [open,setOpen]=useState(false)
   return (
@@ -9,13 +10,13 @@ export default function Header(){
         <BrandLogo />
         <nav className="hidden lg:flex items-center gap-8 text-[13.5px] font-medium tracking-wide text-[#132e49]">
           {['Expertises','Approche','Afrique','Clients','Contact'].map(i=>(
-            <a key={i} href={`#${i.toLowerCase()}`} className="hover:text-[#f26d3d] transition">{i}</a>
+            <a key={i} href={`#${i.toLowerCase()}`} className="hover:text-[#1a8a62] transition">{i}</a>
           ))}
         </nav>
-        <div className="hidden lg:flex items-center">
-          <a href="#contact" className="px-5 py-2.5 rounded-full bg-[#0d233d] text-white text-sm font-semibold">Parlons-en</a>
+        <div className="hidden lg:flex items-center gap-3">
+          <a href="#contact" className="px-5 py-2.5 rounded-full bg-[#0d423d] text-white text-sm font-semibold">Parlons-en</a>
         </div>
-        <button onClick={()=>setOpen(!open)} className="lg:hidden w-10 h-10 rounded-full bg-[#0d233d] text-white">≡</button>
+        <button onClick={()=>setOpen(!open)} className="lg:hidden w-10 h-10 rounded-full bg-[#0d423d] text-white">≡</button>
       </div>
       {open && (
         <div className="lg:hidden px-6 pb-6 pt-2 bg-white border-t">

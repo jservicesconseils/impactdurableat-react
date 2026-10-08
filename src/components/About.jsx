@@ -79,7 +79,7 @@ export default function About(){
               {valuePoints.map(([title, desc], index) => (
                 <div key={title} className="rounded-[18px] border border-black/5 bg-white/80 p-4 shadow-[0_1px_0_rgba(0,0,0,0.02)]">
                   <div className="flex items-center gap-3">
-                    <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#f26d3d] text-white shadow-sm">
+                    <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#1a8a62] text-white shadow-sm">
                       <CheckIcon />
                     </span>
                     <div className="text-[16px] font-bold text-[#121821]">{title}</div>

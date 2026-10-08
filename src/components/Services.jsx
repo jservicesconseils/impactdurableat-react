@@ -35,8 +35,8 @@ export default function Services(){
           {services.map(s => (
             <div key={s.n} className="min-h-[320px] rounded-[24px] border border-black/5 bg-white/80 p-6 shadow-[0_1px_0_rgba(0,0,0,0.02)] transition hover:-translate-y-1 hover:shadow-lg">
               <div className="flex items-center justify-between">
-                <span className="rounded-full bg-[#0d233d] px-2.5 py-1 text-[10px] font-bold uppercase tracking-[0.18em] text-white">{s.n}</span>
-                <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#f26d3d] text-white">
+                <span className="rounded-full bg-[#0d423d] px-2.5 py-1 text-[10px] font-bold uppercase tracking-[0.18em] text-white">{s.n}</span>
+                <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#1a8a62] text-white">
                   <ServiceIcon />
                 </span>
               </div>
@@ -47,7 +47,7 @@ export default function Services(){
               <div className="mt-6 space-y-2">
                 {s.bullets.map(b => (
                   <div key={b} className="flex items-start gap-2 text-[12px] text-zinc-700">
-                    <span className="mt-1 h-1.5 w-1.5 rounded-full bg-[#1db863]" />
+                    <span className="mt-1 h-1.5 w-1.5 rounded-full bg-[#7bbf59]" />
                     <span>{b}</span>
                   </div>
                 ))}

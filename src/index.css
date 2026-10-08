@@ -4,14 +4,14 @@
 
 :root {
   color-scheme: light;
-  --page-bg: #f4f1ee;
-  --navy-900: #071d32;
-  --navy-800: #0d2540;
-  --orange: #f26d3d;
-  --orange-strong: #ef5d2d;
-  --green: #1db863;
-  --green-strong: #18a555;
-  --text: #121821;
+  --page-bg: #f5f2ee;
+  --navy-900: #0d423d;
+  --navy-800: #124e47;
+  --green-brand: #1a8a62;
+  --green-brand-strong: #0f6d54;
+  --green-soft: #7bbf59;
+  --green-soft-strong: #5ca84d;
+  --text: #122d2a;
 }
 
 html {
@@ -26,5 +26,9 @@ body {
 
 .display {
   font-family: Fraunces, serif;
+}
+
+.hero-title {
+  font-family: inherit;
 }
 

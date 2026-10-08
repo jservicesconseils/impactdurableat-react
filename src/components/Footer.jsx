@@ -1,9 +1,8 @@
-
 import BrandLogo from './BrandLogo'
 
 export default function Footer(){
   return (
-    <footer className="bg-[#0d233d] text-white">
+    <footer className="bg-[#0d423d] text-white">
       <div className="mx-auto max-w-[1280px] px-6 py-12 lg:px-8 lg:py-16">
         <div className="flex flex-col gap-10 lg:flex-row lg:items-end lg:justify-between">
           <div className="max-w-[500px]">
